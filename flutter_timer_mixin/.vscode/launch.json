@@ -1,0 +1,63 @@
+{
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter(ios)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        // "890DC263-DB6C-45B2-8AE6-6D3FF3D52836",
+        "A5F4B710-CA2D-481E-AE07-32269B074DF8",
+      ],
+      // "toolArgs": [
+      //   "-d",
+      //   "890DC263-DB6C-45B2-8AE6-6D3FF3D52836",
+      // ]
+    },
+    {
+      "name": "Flutter(android)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        "emulator-5554",
+        "grep | -v 'D/EGL_emulation'"],
+      // "toolArgs": [
+      //   "-d",
+      //   "890DC263-DB6C-45B2-8AE6-6D3FF3D52836",
+      // ]
+    },
+    
+    {
+      "name": "Flutter(android 실기기)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        "R3CR70S67RY",
+      ]
+    },
+    {
+      "name": "Flutter(ios 실기기)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        // "890DC263-DB6C-45B2-8AE6-6D3FF3D52836",
+        "00008110-000A20CA01DA401E",
+      ],
+      // "toolArgs": [
+      //   "-d",
+      //   "890DC263-DB6C-45B2-8AE6-6D3FF3D52836",
+      // ]
+    },
+  ]
+}

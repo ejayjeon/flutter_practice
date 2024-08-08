@@ -1,0 +1,41 @@
+import 'dart:developer';
+
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'package:sketch_pay/src/data/models/model.dart';
+import 'package:sketch_pay/src/presentation/screens/auth/reset_pin_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main/history/history_detail_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main/payment/payment_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main/qr/qr_payment_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/account/account_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main.dart';
+import 'package:sketch_pay/src/presentation/screens/auth/details/after_login_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/auth/details/find_info_detail_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/auth/find_info_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/auth/login_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/auth/pin_check_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/common/splash_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main/history/history_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main/home/home_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/family-app/family_app_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/notice/notice_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/setting/details/address_book_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/setting/details/alert_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/setting/details/currency_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/setting/details/language_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/misc/setting/setting_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/main/qr/qr_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/withdraw/%08details/withdraw_holdings_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/withdraw/%08details/withdraw_rewards_screen.dart';
+import 'package:sketch_pay/src/presentation/screens/sub/withdraw/withdraw_screen.dart';
+
+part 'router.g.dart';
+
+part 'app_route.dart';
+part 'app_router.dart';
+part 'app_router_interceptor.dart';
+part 'app_router_notifier.dart';
+part 'app_router_observer.dart';

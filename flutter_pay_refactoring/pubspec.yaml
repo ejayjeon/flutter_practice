@@ -1,0 +1,124 @@
+name: sketch_pay
+description: 'A new Flutter project.'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # HTTP 요청
+  dio: ^5.4.3+1
+
+  # Rest API 요청
+  retrofit: '>=4.0.0 <5.0.0'
+
+  # 네트워크 상태 관리
+  connectivity_plus: '>=6.0.0 <7.0.0'
+
+  # 상태관리
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  state_notifier: ^1.0.0
+
+  # 모델 패턴 관리
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  equatable: ^2.0.5
+
+  # 라우터
+  go_router: '>=14.0.0 < 16.0.0'
+
+  # 로컬 DB
+  shared_preferences: ^2.2.3
+
+  # 이미지
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  lottie: ^3.1.0
+
+  # 스크린 사이즈 관리
+  flutter_screenutil: '>= 5.6.0 < 6.1.0'
+
+  # 파일 경로 관리
+  path: ^1.9.0
+
+  # 포매터
+  intl: 0.19.0
+
+  # 로케일 관리
+  flutter_localizations:
+    sdk: flutter
+  # Toast
+  fluttertoast: '>=8.0.0 <9.0.0'
+
+  # Shimmer (Skeleton Image)
+  shimmer: ^3.0.0
+
+  # QR Image
+  qr_flutter: ^4.1.0
+  qr_code_scanner: ^1.0.1
+
+  # 핀코드
+  pin_code_fields: ^8.0.1
+
+  # Encoder를 위한 UUID
+  uuid: ^4.4.0
+  encrypt: 5.0.1
+
+  # 외국 폰번호 입력창
+  intl_phone_number_input: ^0.7.4
+
+dependency_overrides:
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  retrofit_generator: '>=7.0.0 <8.0.0'
+  riverpod_generator: ^2.4.0
+  go_router_builder: '>=2.5.0 <3.0.0'
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/main/
+    - assets/icons/sidebar/
+    - assets/icons/sub/
+    - assets/icons/
+    - assets/images/
+    - assets/data/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
