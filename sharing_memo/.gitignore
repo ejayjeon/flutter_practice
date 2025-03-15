@@ -47,3 +47,4 @@ app.*.map.json
 # **/firebase*
 # !lib/externals/*
 # !lib/data/firebase/*
+firebase.json
